@@ -1,0 +1,140 @@
+{
+  "correlationId": "{{$guid}}",
+  "context": {
+    "termsAndConditionsAcceptanceTimestamp": "2017-02-01T13:31:00.00Z",
+    "termsAndConditionsVersion": "1.3.1",
+    "industry": "aerospace"
+  },
+  "locale": "en-US",
+  "customer": {
+    "crId": "customer-crId",
+    "billTo": {
+      "crId": "billTo-crId",
+      "accountName": "{{customer_name}}",
+      "accountNumber": "{{$guid}} ",
+      "sfdcAccountId":  "{{customer_name}}-77FD-4372-B5F1-0CA93F3AB85C",
+      "address": {
+        "address1": "900 Corporate Pointe",
+        "address2": "",
+        "address3": "",
+        "city": "Culver City",
+        "state": "CA",
+        "province": "",
+        "postalCode": "90230",
+        "county": "Los Angeles",
+        "country": "United States",
+        "siteNumber": "Building A"
+      },
+      "contact": {
+        "firstName": "FirstB",
+        "lastName": "LastB",
+        "phoneNumber": "+14247507000",
+        "emailAddress": "{{email_address}}@{{email_domain}}"
+      }
+    },
+    "endUser": {
+      "crId": "endUser-crId",
+      "accountName": "{{customer_name}}",
+      "accountNumber": "1212",
+      "sfdcAccountId": "{{customer_name}}-77FD-4372-B5F1-0CA93F3AB85C",
+      "address": {
+        "address1": "900 Corporate Pointe",
+        "address2": "",
+        "address3": "",
+        "city": "Culver City",
+        "state": "CA",
+        "province": "",
+        "postalCode": "Postal Code",
+        "county": "Los Angeles",
+        "country": "United States",
+        "siteNumber": "Building A"
+      },
+      "contact": {
+        "firstName": "FirstE",
+        "lastName": "LastE",
+        "phoneNumber": "+14247507000",
+        "emailAddress": "{{email_address}}@{{email_domain}}"
+      }
+    },
+    "shipTo": {
+      "crId": "shipTo-crId",
+      "accountName": "{{customer_name}}",
+      "accountNumber": "1212",
+      "sfdcAccountId":  "{{customer_name}}-77FD-4372-B5F1-0CA93F3AB85C",
+      "address": {
+        "address1": "900 Corporate Pointe",
+        "address2": "",
+        "address3": "",
+        "city": "Culver City",
+        "state": "CA",
+        "province": "",
+        "postalCode": "90230",
+        "county": "Los Angeles",
+        "country": "United States",
+        "siteNumber": "Building A"
+      },
+      "contact": {
+        "firstName": "FirstS",
+        "lastName": "LastS",
+        "phoneNumber": "+14247507000",
+        "emailAddress": "{{email_address}}@{{email_domain}}"
+      }
+    },
+    "soldTo": {
+      "crId": "soldTo-crId",
+      "accountName": "{{customer_name}}",
+      "accountNumber": "1212",
+      "sfdcAccountId":  "{{customer_name}}-77FD-4372-B5F1-0CA93F3AB85C",
+      "address": {
+        "address1": "900 Corporate Pointe",
+        "address2": "",
+        "address3": "",
+        "city": "Culver City",
+        "state": "CA",
+        "province": "",
+        "postalCode": "90230",
+        "county": "Los Angeles",
+        "country": "United States",
+        "siteNumber": "Building A"
+      },
+      "contact": {
+        "firstName": "Firstss",
+        "lastName": "Lastss",
+        "phoneNumber": "+14247507000",
+        "emailAddress": "{{email_address}}@{{email_domain}}"
+      }
+    }
+  },
+  "subscription": {
+    "orderDate": "2017-02-01T13:31:00.00Z",
+    "orderSource": "Common Console",
+    "purchaseOrderNumber": "01111",
+    "salesContractNumber": "",
+    "subscriptionNumber": "{{$guid}}",
+    "subscriptionId": "{{subscription_id}}",
+    "salesOrderLine": "",
+    "ammendmentNumber": "",
+    "orderedQuantity": "5",
+    "uom": "User",
+    "partNumber": "",
+    "partDescription": "",
+    "usageChargeNumber": "",
+    "featureId": "66383112-CB1A-4311-887C-1F7C1552AB46",
+    "featureCode": "PMC_CLOUD",
+    "featureDescription": "Partner Mgmt App",
+    "provisioningRequestStatus": "",
+    "serviceStartDate": "2017-02-01",
+    "serviceEndDate": "2018-01-01",
+    "autoRenewalFlag": "",
+    "provisioningSystem": "",
+    "transactionReasonCode": "NEW_SERVICE",
+    "errorMessage": "",
+    "sfdcTaskId": "",
+    "serviceProviderId": "",
+    "sourceLineId": "",
+    "chargeId": "F6383112-CB1A-4311-887C-1F7C1552AB47"
+  },
+  "termsAndConditionsAcceptanceTimestamp": "2017-02-01T13:31:00.00Z",
+  "termsAndConditionsVersion": "1.3.1",
+  "industry": "aerospace"
+}
