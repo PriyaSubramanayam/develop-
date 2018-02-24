@@ -1,0 +1,25 @@
+{
+  "resources" : {
+    "page.title"					: "Discovery Settings",
+    "title"							: "Discovery Settings",
+    "selectRelayTitle"              : "Device Discovery",
+    "addRelaysBtn"                  : "Add Relays",
+    "column.header.relayName"       : "Relay Name",
+    "column.header.relayStatus"     : "Relay Status",
+    "column.header.scanRange"       : "Scan Range",
+    "column.value.entireNetwork"    : "Entire Network",
+    "column.value.ready"            : "Ready",
+    "column.header.discoveryStatus" : "Discovery Status",
+    "removeBtn"                     : "Remove",
+    "noGridData"                    : "No devices added for relay",
+    "addRelays.page.title"          : "Select Devices",
+    "selectNumberRelaysText"        : "{0} Devices Selected for Relay",
+    "selectRelaysText"              : "Select one or more Windows devices to use as relays",
+    "addBtn"                        : "Add",
+    "addRelaysSuccess"              : "{0} Devices has been selected for relays.",
+    "removeRelaySuccess"            : "Device {0} has been removed from relays list.",
+    "startDiscoveryBtn"             : "Discover Now",
+    "msgNoWindowsDevices"           : "No Windows devices are enrolled. You must enroll at least one Windows device to use as a relay before device discovery can run.",
+    "msgNoDevices"                  : "No devices are enrolled. You must enroll at least one Windows device to use as a relay before device discovery can run."
+  }
+}
